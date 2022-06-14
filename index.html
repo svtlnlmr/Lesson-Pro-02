@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="numbers.js"></script>
+    <style>
+        .body {
+            display: flex;
+            justify-content: space-around;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 15px;
+        }
+        .title {
+            margin: 0 auto;
+        }
+        .button {
+            width: 140px;
+            height: 60px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body class="body">
+<div class="box">
+    <h3 class="title">Numbers</h3>
+    <button class="button" onclick="task1Numbers()">Task 1. Binary and hexadecimal number systems</button>
+    <button class="button" onclick="task2Numbers()">Task 2. Calculations</button>
+    <button class="button" onclick="task3Numbers()">Task 3. String length</button>
+    <button class="button" onclick="task4Numbers()">Task 4. Number rounding</button>
+</div>
+<div class="box">
+    <h3 class="title">Strings</h3>
+    <button class="button" onclick="task1Strings()">Task 1. IndexOf and toUpperCase</button>
+</div>
+<div class="box">
+    <h3 class="title">Logical operations</h3>
+    <button class="button" onclick="task1LogicalOperations()">Task 1. AND </button>
+    <button class="button" onclick="task2LogicalOperations()">Task 2. OR </button>
+</div>
+<div class="box">
+    <h3 class="title">Last task</h3>
+    <button class="button" onclick="lastTask()">Creative task</button>
+</div>
+</body>
+</html>
